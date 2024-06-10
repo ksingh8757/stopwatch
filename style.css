@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(168, 111, 159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.box{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+.heading{
+    text-align: center;
+    color: aqua;
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+button{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+ 
+}
